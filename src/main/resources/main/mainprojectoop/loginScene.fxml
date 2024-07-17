@@ -39,10 +39,9 @@
         </AnchorPane>
         <Button layoutX="519.0" layoutY="324.0" mnemonicParsing="false" style="-fx-background-color: #3bf66a;" text="SignUp" />
         <Label layoutX="321.0" layoutY="328.0" text="Dont have an account ? sign up now" />
-        <ImageView fitHeight="106.0" fitWidth="193.0" layoutX="350.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-            <image>
-                <Image url="@../../../images/football-8-9883%20(1).gif" />
-            </image>
+        <ImageView fitHeight="106.0" fitWidth="193.0" layoutX="350.0" layoutY="14.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <Image url="@../../../images/football-8-9883%20(1).gif"/>
         </ImageView>
     </children>
 </AnchorPane>
