@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="main.mainprojectoop.HRmanagerDashboardScene"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #b3e6a1;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.mainprojectoop.AccountantDashboardScene">
+    <children>
+        <VBox alignment="TOP_LEFT" prefHeight="277.0" prefWidth="211.0" spacing="10.0" style="-fx-background-color: #7cad5d;">
+            <Label text="HR Manager Dashboard" textFill="WHITE">
+                <font>
+                    <Font name="System Bold" size="18.0" />
+                </font>
+            </Label>
+            <Button onAction="#handleAuditReport" prefHeight="25.0" prefWidth="105.0" styleClass="dashboard-button" />
+            <Button onAction="#handleGeneratePayroll" prefHeight="25.0" prefWidth="107.0" styleClass="dashboard-button" />
+            <Button onAction="#handleGenerateInvoices" prefHeight="25.0" prefWidth="111.0" styleClass="dashboard-button" />
+            <Button onAction="#handleBudgetReport" prefHeight="25.0" prefWidth="111.0" styleClass="dashboard-button" />
+            <Button onAction="#handleExpensesReport" prefHeight="25.0" prefWidth="110.0" styleClass="dashboard-button" />
+            <Button onAction="#handleHireEmployee" styleClass="dashboard-button" text="Hire New Employee" />
+            <Button onAction="#handlePostJobVacancy" styleClass="dashboard-button" text="Post Job Vacancy" />
+        </VBox>
+        <AnchorPane layoutX="211.0" prefHeight="400.0" prefWidth="2.0" style="-fx-background-color: #7cad5d;" />
+        <VBox alignment="CENTER_LEFT" layoutX="220.0" layoutY="20.0" spacing="10.0">
+            <Label style="-fx-font-size: 20px;" text="Welcome To HR!" />
+            <Label text="Manage your operations efficiently." />
+        </VBox>
+          <Line endX="0.0" endY="400.0" layoutX="211.0" startX="0.0" startY="0.0" stroke="WHITE" strokeWidth="2.0" />
+    </children>
 </AnchorPane>
