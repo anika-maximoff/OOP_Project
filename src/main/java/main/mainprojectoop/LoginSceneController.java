@@ -1,5 +1,9 @@
 package main.mainprojectoop;
 
+
+import javafx.scene.control.PasswordField;
+import javafx.scene.control.TextField;
+
 public class LoginSceneController
 {
     @javafx.fxml.FXML
