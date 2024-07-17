@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #abfbbd;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.mainprojectoop.LoginScene">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #abfbbd;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.mainprojectoop.abir_fxml.LoginScene">
     <children>
         <Label layoutX="347.0" layoutY="130.0" text="Log In To Football " textFill="#009122">
             <font>
