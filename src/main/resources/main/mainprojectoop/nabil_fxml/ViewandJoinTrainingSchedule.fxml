@@ -1,0 +1,5 @@
+public class ViewandJoinTrainingScheduleController
+{
+    @javafx.fxml.FXML
+    public void initialize() {
+    }}
