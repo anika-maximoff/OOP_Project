@@ -1,6 +1,6 @@
 package main.mainprojectoop;
 
-public class SignupScene
+public class InvoicesReportSceneController
 {
     @javafx.fxml.FXML
     public void initialize() {
